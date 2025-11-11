@@ -8,3 +8,6 @@ Explainable AI bridges the gap between complex ML models and human understanding
 
 ## Included Projects
 
+| Project | Description | XAI Method | Link |
+|----------|--------------|------------|------|
+| **Loan Approval Prediction** | Predicts whether a loan will be approved or rejected using a Random Forest model. Explains each decision using **LIME**, showing which features (e.g., Income, Credit History, Education) influenced the result. | LIME | [View Project →](LoanApproval/report.md)
