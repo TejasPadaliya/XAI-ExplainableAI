@@ -7,6 +7,6 @@ venv/
 # Ignore Python cache
 __pycache__/
 
-# Ignore SHAP and plot outputs
+# Ignore HTML LIME reports
 *.html
 
