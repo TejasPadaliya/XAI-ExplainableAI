@@ -11,5 +11,3 @@ __pycache__/
 *.png
 *.html
 
-# Ignore dataset CSVs (optional)
-*/data/*.csv
