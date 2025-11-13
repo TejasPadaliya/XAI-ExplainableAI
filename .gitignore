@@ -1,12 +1,15 @@
 # Ignore virtual environments
 venv/
 
-# Ignore Python cache files
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python cache
 __pycache__/
 
-# Ignore SHAP cache
+# Ignore SHAP and plot outputs
 *.png
 *.html
 
-# Ignore datasets (optional)
-data/*.csv
+# Ignore dataset CSVs (optional)
+*/data/*.csv
