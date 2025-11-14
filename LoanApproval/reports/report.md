@@ -49,7 +49,16 @@ LIME explanations were generated for three test samples:
 | `lime_explanation_1.html` | Approved   | 0.82       | Positive credit history, moderate income                  |
 | `lime_explanation_2.html` | Approved   | 0.99       | High income, strong credit record, big loan amount |
 
-Each HTML file visualizes *why* that specific loan was approved or rejected.
+**Note:**
+
+HTML files are not included in GitHub.
+
+They are intentionally excluded because:
+* They contain inline JavaScript and large CSS sections
+* They change every run → large diffs
+* They increase repo size
+
+**The Screenshots of each output is included in `/reports/output`**
 
 The color bars show the direction of influence:
 
@@ -78,7 +87,7 @@ This project aligns with **Responsible and Ethical AI** goals:
 * **Explainability Tool:** LIMETabularExplainer
 * **Output Files:**
 
-  * Individual explanations → `/reports/lime_explanation_X.html`
+  * Individual HTML explanations not on github but output included.
   * Index page → `/reports/index.html`
 
 ### *9. Takeaways*
