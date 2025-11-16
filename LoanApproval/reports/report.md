@@ -58,7 +58,7 @@ They are intentionally excluded because:
 * They change every run → large diffs
 * They increase repo size
 
-**The Screenshots of each output is included in `/reports/output`**
+**The Screenshots of each output is included in `/reports/output_case_x`**
 
 The color bars show the direction of influence:
 
@@ -87,7 +87,7 @@ This project aligns with **Responsible and Ethical AI** goals:
 * **Explainability Tool:** LIMETabularExplainer
 * **Output Files:**
 
-  * Individual HTML explanations not on github but output included.
+  * Individual HTML explanations not on github but outputs included.
   * Index page → `/reports/index.html`
 
 ### *9. Takeaways*
